@@ -1,0 +1,51 @@
+Flight Price Analysis
+This project explores flight pricing data using Exploratory Data Analysis (EDA) and Feature Engineering to uncover insights, trends, and relationships in the dataset. The analysis was performed using Python in a Jupyter Notebook environment.
+
+Table of Contents
+Project Overview
+Dataset
+Tech Stack
+Analysis Steps
+Key Insights
+How to Run the Project
+Future Scope
+Acknowledgments
+Project Overview
+The goal of this project is to analyze flight price data to:
+
+Identify factors affecting flight prices.
+Perform data preprocessing and cleaning.
+Engineer meaningful features for better analysis.
+Generate visualizations for effective communication of findings.
+Dataset
+Source: Publicly available flight price datasets (e.g., Kaggle or similar).
+Description: The dataset contains information about airlines, routes, flight durations, departure/arrival times, prices, and other flight attributes.
+Tech Stack
+Python: Core programming language
+Jupyter Notebook: Interactive analysis
+Libraries:
+pandas - Data manipulation
+numpy - Numerical computations
+scikit-learn - Machine Learning 
+Analysis Steps
+Data Loading:
+
+Import the flight price dataset into a pandas DataFrame.
+Data Cleaning:
+
+Handle missing or null values.
+Remove duplicates, if any.
+Format and standardize date, time, and categorical fields.
+Exploratory Data Analysis (EDA):
+
+Understand the distribution of flight prices.
+Analyze trends related to flight duration, airlines, and departure timings.
+
+Feature Engineering:
+
+Create new features, such as flight duration in hours, day/night departure, and airline-specific price averages.
+Encode categorical features for machine learning readiness.
+
+
+
+
